@@ -30,13 +30,13 @@ Bắt đầu ngay với project thực tế
     - Typescript
     - Babel
     - Prettier
-    - Lựa chọn code styles
-    - VSCode extensions c phải có
+    - Lựa chọn code styles (Standard, Google, Airbnb)
+    - VSCode extensions phải có
 - Xây dựng weather app (120->180p)
     - Xây dựng kiến trúc app, tại sao lại cần ?
     - Thiết lập redux (redux-saga, redux-thunk, redux-loggger ...)
-    - Thiết lập Navigator
-    - UI Style, lựa chọn hợp lý 
+    - Thiết lập Navigator (reactnavigation, react-native-navigation)
+    - UI Style, lựa chọn hợp lý (nativebase,...)
     - Thiết lập fonts chũ
     - Network 
     - Call API
