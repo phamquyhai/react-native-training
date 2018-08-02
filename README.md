@@ -24,7 +24,7 @@ Bắt đầu ngay với project thực tế
     - Redux, tại sao lại là redux ?
 - Thiết lập IDE và config Project nâng cao (30p) 
     - Debug và thiết lập debug xịn !
-    - React native hoạt động như nào ? buiding, hot reaload...
+    - React native hoạt động như nào ? buiding, hot reload...
     - Flow
     - Eslint
     - Typescript
