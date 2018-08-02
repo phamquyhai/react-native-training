@@ -12,7 +12,7 @@ Bắt đầu ngay với project thực tế
 
 ### 1. Weather App
 
-- Cài đặt môi trường (30p)
+- [Cài đặt môi trường (30p)](1.InstallEnvironment.md)
     - Nodejs
     - IDE (VSCode, Atom, Webstorm, Nuclide ....)
     - React native cli
