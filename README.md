@@ -34,7 +34,7 @@ Bắt đầu ngay với project thực tế
     - VSCode extensions c phải có
 - Xây dựng weather app (120->180p)
     - Xây dựng kiến trúc app, tại sao lại cần ?
-    - Thiết lập redux
+    - Thiết lập redux (redux-saga, redux-thunk, redux-loggger ...)
     - Thiết lập Navigator
     - UI Style, lựa chọn hợp lý 
     - Thiết lập fonts chũ
