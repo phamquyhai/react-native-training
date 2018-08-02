@@ -8,28 +8,30 @@
 
 ## Training
 
-Bắt đầu ngay với project thự tế
+Bắt đầu ngay với project thực tế
 
 ### 1. Weather App
 
 - Cài đặt môi trường (30p)
     - Nodejs
-    - IDE
+    - IDE (VSCode, Atom, Webstorm, Nuclide ....)
     - React native cli
     - Android SDK or Xcode
+    - Watchman
 - Tạo project & Khái quát react native (30p)
     - Tạo project bằng react-native init, và tại sao ?
     - Giới thiệu các thành phần trong react-native
     - Redux, tại sao lại là redux ?
-- Thiết lập IDE và config Project nâng cao (30p)
+- Thiết lập IDE và config Project nâng cao (30p) 
     - Debug và thiết lập debug xịn !
-    - React native hoạt động như nào ?
+    - React native hoạt động như nào ? buiding, hot reaload...
     - Flow
     - Eslint
     - Typescript
     - Babel
     - Prettier
     - Lựa chọn code styles
+    - VSCode extensions c phải có
 - Xây dựng weather app (120->180p)
     - Xây dựng kiến trúc app, tại sao lại cần ?
     - Thiết lập redux
