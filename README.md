@@ -58,6 +58,15 @@ Bắt đầu ngay với project thực tế
 https://www.udemy.com/the-complete-react-native-and-redux-course/
 _iOS and Android App Development from scratch - build full React Native mobile apps ridiculously fast!_
 
+### 2. 
+
+https://unbug.gitbooks.io/react-native-training/content/
+
 
 ## Giợi ý thư viện
+
+- https://yogalayout.com/playground/
+- http://www.awesome-react-native.com/
+- https://www.native.directory/
+- https://js.coach/react-native
 
