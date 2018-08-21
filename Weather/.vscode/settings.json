@@ -1,0 +1,11 @@
+{
+    "editor.formatOnSave": true,
+    "javascript.format.enable": false,
+    "prettier.eslintIntegration": true,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+    "javascript.validate.enable": false,
+    "flow.showStatus": true,
+    "flow.useNPMPackagedFlow": true,
+    "git.ignoreLimitWarning": true,
+  }

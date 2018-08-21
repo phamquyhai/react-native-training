@@ -1,0 +1,13 @@
+{
+  "allowJs": true,
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["app/*"]
+    },
+    "noUnusedLocals": true
+  },
+  "exclude": ["node_modules", "**/node_modules/*", "**/generator.js"]
+}

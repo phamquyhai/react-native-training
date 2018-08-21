@@ -1,0 +1,51 @@
+platform :ios, '9.0'
+
+target 'Weather' do
+
+  pod 'React', :path => '../node_modules/react-native', :subspecs => [
+    'Core',
+    'RCTText',
+    'RCTImage',
+    'RCTNetwork',
+    'RCTWebSocket',
+    'DevSupport',
+    'CxxBridge',
+    # 'Core',
+    # 'ART',
+    # 'RCTActionSheet',
+    # 'RCTAnimation',
+    # 'RCTCameraRoll',
+    # 'RCTGeolocation',
+    # 'RCTImage',
+    # 'RCTNetwork',
+    # 'RCTText',
+    # 'RCTVibration',
+    # 'RCTWebSocket',
+    # 'DevSupport',
+    # 'CxxBridge'
+  ]
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+  pod 'DoubleConversion',
+    :podspec => "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec",
+    :inhibit_warnings => true
+  pod 'Folly',
+    :podspec => "../node_modules/react-native/third-party-podspecs/Folly.podspec",
+    :inhibit_warnings => true
+  pod 'glog',
+    :podspec => "../node_modules/react-native/third-party-podspecs/glog.podspec",
+    :inhibit_warnings => true
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    if target.name == "react-native-google-maps"
+      target.build_configurations.each do |config|
+        config.build_settings['CLANG_ENABLE_MODULES'] = 'No'
+      end
+    end
+
+    if target.name == "React"
+      target.remove_from_project
+    end
+  end
+end

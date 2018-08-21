@@ -1,0 +1,35 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["react", "react-native"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    }
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended", "airbnb-base"],
+  "rules": {
+    "arrow-body-style": "warn",
+    "global-require": "off",
+    "no-useless-concat": "off",
+    "class-methods-use-this": "off",
+    "no-use-before-define": "off",
+    "import/prefer-default-export": "off",
+    "no-console": "warn",
+    "react/prop-types": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-plugin-root-import": {
+        "rootPathPrefix": "~",
+        "rootPathSuffix": "app"
+      }
+    },
+    "react": {
+      "version": "16.4.1"
+    }
+  },
+  "env": {
+    "jest": true
+  }
+}
