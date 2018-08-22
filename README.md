@@ -58,7 +58,13 @@ Bắt đầu ngay với project thực tế
 https://www.udemy.com/the-complete-react-native-and-redux-course/
 _iOS and Android App Development from scratch - build full React Native mobile apps ridiculously fast!_
 
-### 2. 
+
+### 2. React Native: Advanced Concepts (đã mua)
+
+https://www.udemy.com/react-native-advanced/
+_Master the advanced topics of React Native: Animations, Maps, Notifications, Navigation and More!_
+
+### 3. React native training
 
 https://unbug.gitbooks.io/react-native-training/content/
 
