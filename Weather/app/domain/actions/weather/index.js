@@ -5,6 +5,11 @@ export const doFetchData = payload => ({
   payload,
 });
 
+export const repeatData = payload => ({
+  type: types.weather.repeatData,
+  payload,
+});
+
 export const repeatFetching = payload => ({
   type: types.weather.repeatFetching,
   payload,
@@ -13,4 +18,5 @@ export const repeatFetching = payload => ({
 export default {
   doFetchData,
   repeatFetching,
+  repeatData,
 };

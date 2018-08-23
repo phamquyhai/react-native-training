@@ -14,7 +14,7 @@ const initData = {
 
 export default (state = initData, { type, payload }) => {
   switch (type) {
-    case types.weather.doFetchData:
+    case types.weather.repeatData:
       return { ...state, currentData: payload.currentData, forecastData: payload.forecastData };
     case types.weather.repeatFetching:
       return { ...state, isFetching: payload };

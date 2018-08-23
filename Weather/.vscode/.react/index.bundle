@@ -84186,10 +84186,11 @@ __d(function (global, _$$_REQUIRE, module, exports, _dependencyMap) {
             return (0, _effects.put)((0, _weather.repeatFetching)(true));
 
           case 2:
-            _context.next = 4;
+            console.log('doFetchData ');
+            _context.next = 5;
             return (0, _effects.put)((0, _weather.repeatFetching)(false));
 
-          case 4:
+          case 5:
           case "end":
             return _context.stop();
         }
@@ -84380,6 +84381,8 @@ __d(function (global, _$$_REQUIRE, module, exports, _dependencyMap) {
 
   var _weather = _interopRequireDefault(_$$_REQUIRE(_dependencyMap[4], "../../domain/selectors/weather"));
 
+  var _weather2 = _$$_REQUIRE(_dependencyMap[5], "../../domain/actions/weather");
+
   var _dec,
       _class,
       _jsxFileName = "/Users/haipq/WorkSpace/Framgia/react-native-training/Weather/app/screens/Home/index.js";
@@ -84427,7 +84430,9 @@ __d(function (global, _$$_REQUIRE, module, exports, _dependencyMap) {
     return {
       currentData: _weather.default.getCurrentData(state)
     };
-  }, {}), _dec(_class = function (_Component) {
+  }, {
+    doFetchData: _weather2.doFetchData
+  }), _dec(_class = function (_Component) {
     function Home() {
       _classCallCheck(this, Home);
 
@@ -84435,6 +84440,11 @@ __d(function (global, _$$_REQUIRE, module, exports, _dependencyMap) {
     }
 
     _createClass(Home, [{
+      key: "componentDidMount",
+      value: function componentDidMount() {
+        this.props.doFetchData();
+      }
+    }, {
       key: "render",
       value: function render() {
         return _react.default.createElement(_reactNative.View, {
@@ -84445,12 +84455,12 @@ __d(function (global, _$$_REQUIRE, module, exports, _dependencyMap) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 16
+            lineNumber: 22
           }
         }, _react.default.createElement(_reactNative.Text, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 17
+            lineNumber: 23
           }
         }, "Current Temp: ", this.props.currentData.temp));
       }
@@ -84463,7 +84473,7 @@ __d(function (global, _$$_REQUIRE, module, exports, _dependencyMap) {
 
   var _default2 = Home;
   exports.default = _default2;
-},569,[37,87,509,1,570],"app/screens/Home/index.js");
+},569,[37,87,509,1,570,567],"app/screens/Home/index.js");
 __d(function (global, _$$_REQUIRE, module, exports, _dependencyMap) {
   Object.defineProperty(exports, "__esModule", {
     value: true
