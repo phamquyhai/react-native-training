@@ -16,7 +16,8 @@
     "no-use-before-define": "off",
     "import/prefer-default-export": "off",
     "no-console": "warn",
-    "react/prop-types": "off"
+    "react/prop-types": "off",
+    "import/no-named-as-default-member": "off"
   },
   "settings": {
     "import/resolver": {

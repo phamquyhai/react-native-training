@@ -15,8 +15,14 @@ export const repeatFetching = payload => ({
   payload,
 });
 
+export const repeatUnit = payload => ({
+  type: types.weather.repeatUnit,
+  payload,
+});
+
 export default {
   doFetchData,
   repeatFetching,
   repeatData,
+  repeatUnit,
 };
